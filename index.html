@@ -173,7 +173,11 @@
         <h2 class="heading2-title">Наша команда</h2>
         <ul class="team-section__list list">
           <li class="team-section__item">
-            <img src="./images/personal/img.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+            <picture>
+              <source srcset="./images/personal/igor-mobile.jpg" media="(min-width: 200px)" />
+              <source srcset="./images/personal/img.jpg" media="(max-width: 1200px)" />
+              <img src="#" alt="Игорь Демьяненко" />
+            </picture>
             <h3 class="team-section__title">Игорь Демьяненко</h3>
             <p class="team-section__subtitle">Product Designer</p>
             <ul class="team-section-list list">
@@ -208,7 +212,10 @@
             </ul>
           </li>
           <li class="team-section__item">
-            <img src="./images/personal/img-1.jpg" alt="Ольга Репина" width="270" height="260" />
+            <picture>
+              <source srcset="./images/personal/olga-mobile.jpg" media="(min-width: 200px)" />
+              <img src="./images/personal/img-1.jpg" alt="Ольга Репина" />
+            </picture>
             <h3 class="team-section__title">Ольга Репина</h3>
             <p class="team-section__subtitle">Frontend Developer</p>
             <ul class="team-section-list list">
