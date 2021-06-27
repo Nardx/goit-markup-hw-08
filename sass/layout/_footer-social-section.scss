@@ -1,0 +1,39 @@
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color4);
+  margin-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.join-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 2555, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+  }
+}
+
+.join-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--accent-color4);
+}
