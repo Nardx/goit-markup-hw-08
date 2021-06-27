@@ -41,7 +41,13 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team-section__subtitle {
+    margin-bottom: 30px;
+  }
 }
 
 // .team-section__list {
