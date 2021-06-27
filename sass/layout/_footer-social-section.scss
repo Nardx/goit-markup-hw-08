@@ -8,8 +8,20 @@
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 480px) {
+  .social-title {
+    margin-top: 60px;
+  }
+}
+
 .social-list {
   display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .social-list {
+    margin-bottom: 20px;
+  }
 }
 
 .join-social-item:not(:last-child) {
