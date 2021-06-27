@@ -65,15 +65,47 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .logo {
@@ -463,23 +495,27 @@ body {
   color: var(--accent-color4);
 }
 
-.info-section__list {
-  display: flex;
-  justify-content: space-between;
+@media screen and (min-width: 1200px) {
+  .info-section__list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .info-section__svg-background {
-  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
   height: 120px;
   background-color: var(--background-colorsec);
-  margin-bottom: 30px;
 }
 
-.info-section__img {
-  width: 70px;
-  height: 70px;
-  margin-left: 100px;
-  margin-top: 25px;
+@media screen and (min-width: 1200px) {
+  .info-section__svg-background {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
 }
 
 .info-setion__title {
@@ -488,7 +524,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
-  margin-bottom: 10px;
 }
 
 .info-section__subtitle {
@@ -496,7 +531,24 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--subtitle-color);
-  max-width: 270px;
+}
+
+@media screen and (min-width: 1200px) {
+  .info-setion__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .info-section__subtitle {
+    max-width: 270px;
+  }
+}
+
+.info-section__img {
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
 }
 
 .about-section {
@@ -535,10 +587,15 @@ body {
 }
 
 .team-section__list {
-  display: flex;
   margin-left: -30px;
   margin-top: -30px;
-  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1200px) {
+  .team-section__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .team-section__item {
