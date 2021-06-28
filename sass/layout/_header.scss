@@ -2,10 +2,27 @@
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+
+  &__mobile-menu-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  &__mobile-menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__mobile-menu-btn {
+    display: none;
+  }
 }
 
 .hearder__container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
