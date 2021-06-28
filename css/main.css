@@ -669,10 +669,15 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-align: center;
   text-transform: uppercase;
   color: var(--title-color);
-  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .info-setion__title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 .info-section__subtitle {
