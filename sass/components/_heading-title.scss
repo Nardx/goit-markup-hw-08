@@ -21,6 +21,14 @@
 
 // tablet
 @media screen and (min-width: 768px) {
+  .heading2-title {
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-bottom: 50px;
+  }
 }
 
 // pc

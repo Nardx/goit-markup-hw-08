@@ -124,6 +124,7 @@
   .info-section__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   .info-section__svg-background {
