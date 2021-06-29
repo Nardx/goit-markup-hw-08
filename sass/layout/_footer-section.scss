@@ -1,49 +1,174 @@
-.footer-section {
-  display: flex;
-  background-color: var(--background-footer);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin: 0 auto;
-}
+// .footer-section {
+//   display: flex;
+//   background-color: var(--background-footer);
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+//   margin: 0 auto;
+// }
 
-.address-footer-list {
-  margin-top: 20px;
-}
+// .footer-section-container {
+//   display: flex;
+//   align-items: baseline;
+// }
 
-.address-footer-item {
-  margin-top: 9px;
-}
+// .address-footer-list {
+//   margin-top: 20px;
+// }
 
-.address-google-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--accent-color4);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// .address-footer-item {
+//   margin-top: 9px;
+// }
 
-  &:hover,
-  &:focus {
-    color: var(--hover-color);
+// .address-google-link {
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 24px;
+//   letter-spacing: 0.03em;
+//   color: var(--accent-color4);
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     color: var(--hover-color);
+//   }
+// }
+
+// .address-footer-link {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.71;
+//   letter-spacing: 0.03em;
+//   color: rgba(255, 255, 255, 0.6);
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     color: var(--hover-color);
+//   }
+// }
+
+// .footer-social-container {
+//   margin-left: 70px;
+// }
+
+// smart
+@media screen and (max-width: 767px) {
+  .footer-section {
+    display: flex;
+    background-color: var(--background-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+  }
+  .footer-address-container {
+    text-align: center;
+  }
+
+  .footer-section-container {
+  }
+
+  .address-footer-list {
+  }
+
+  .address-footer-item {
+  }
+
+  .address-google-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color4);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--hover-color);
+    }
+  }
+
+  .address-footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--hover-color);
+    }
+  }
+
+  .footer-social-container {
   }
 }
 
-.address-footer-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--hover-color);
-  }
+// tablet
+@media screen and (min-width: 768px) {
 }
 
-.footer-social-container {
-  margin-left: 70px;
+// pc
+@media screen and (min-width: 1200px) {
+  .footer-section {
+    display: flex;
+    background-color: var(--background-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+  }
+
+  .footer-section-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .address-footer-list {
+    margin-top: 20px;
+  }
+
+  .address-footer-item {
+    margin-top: 9px;
+  }
+
+  .address-google-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color4);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--hover-color);
+    }
+  }
+
+  .address-footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--hover-color);
+    }
+  }
+
+  .footer-social-container {
+    margin-left: 70px;
+  }
 }
