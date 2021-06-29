@@ -4,6 +4,7 @@
   // outline: 1px solid red;
 }
 
+// smart
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -11,12 +12,14 @@
   }
 }
 
+// tablet
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
 
+// pc
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
