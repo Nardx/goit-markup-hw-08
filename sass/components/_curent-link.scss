@@ -1,5 +1,6 @@
 .current {
   position: relative;
+  display: block;
   color: var(--hover-color);
 
   &::after {

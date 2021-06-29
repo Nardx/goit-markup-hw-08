@@ -28,3 +28,10 @@
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--accent-color4);
 }
+
+// smartphone -------------------------------------------------------------------------
+@media screen and (max-width: 1200px) {
+  .about-section {
+    display: none;
+  }
+}
