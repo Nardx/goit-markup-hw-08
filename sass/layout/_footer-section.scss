@@ -1,3 +1,11 @@
+.footer-section {
+  display: flex;
+  background-color: var(--background-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
 .address-google-link {
   font-style: normal;
   font-weight: normal;
@@ -31,10 +39,7 @@
 // smart
 @media screen and (max-width: 767px) {
   .footer-section {
-    background-color: var(--background-footer);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0 auto;
+    display: block;
   }
 
   .footer-section-container {
@@ -61,10 +66,7 @@
 // tablet
 @media screen and (min-width: 768px) {
   .footer-section {
-    background-color: var(--background-footer);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0 auto;
+    display: block;
   }
 
   .footer-section-container {
@@ -90,14 +92,6 @@
 
 // pc
 @media screen and (min-width: 1200px) {
-  .footer-section {
-    display: flex;
-    background-color: var(--background-footer);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0 auto;
-  }
-
   .footer-section-container {
     display: flex;
     flex-direction: row;

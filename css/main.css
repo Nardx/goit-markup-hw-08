@@ -100,7 +100,6 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 
 @media screen and (min-width: 480px) {
@@ -1185,6 +1184,14 @@ body {
   }
 }
 
+.footer-section {
+  display: flex;
+  background-color: var(--background-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
 .address-google-link {
   font-style: normal;
   font-weight: normal;
@@ -1215,10 +1222,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .footer-section {
-    background-color: var(--background-footer);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0 auto;
+    display: block;
   }
   .footer-section-container {
     display: flex;
@@ -1240,10 +1244,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .footer-section {
-    background-color: var(--background-footer);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0 auto;
+    display: block;
   }
   .footer-section-container {
     display: flex;
@@ -1264,13 +1265,6 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-section {
-    display: flex;
-    background-color: var(--background-footer);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0 auto;
-  }
   .footer-section-container {
     display: flex;
     flex-direction: row;
