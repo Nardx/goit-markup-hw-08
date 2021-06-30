@@ -73,7 +73,6 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding-left: 10px;
 
   &::before {
     display: inline-block;
@@ -121,5 +120,20 @@
   &:focus {
     background-color: var(--button-color);
     color: var(--accent-color4);
+  }
+}
+
+// smartphone -------------------------------------------------------------------------
+@media screen and (max-width: 767px) {
+  .modal-form-checkbox-policy {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+// pc ---------------------------------------------------------------------------------
+@media screen and (min-width: 1200px) {
+  .modal-form-checkbox-policy {
+    padding-left: 10px;
   }
 }

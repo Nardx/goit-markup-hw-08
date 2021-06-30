@@ -31,3 +31,17 @@
 .modal-close-btn:hover {
   fill: var(--hover-color);
 }
+
+// smartphone -------------------------------------------------------------------------
+@media screen and (max-width: 767px) {
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 609px;
+    background-color: var(--modal-bck-color);
+    padding: 40px;
+  }
+}
