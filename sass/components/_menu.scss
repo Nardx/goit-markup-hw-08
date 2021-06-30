@@ -46,6 +46,10 @@
     width: 40px;
     height: 40px;
   }
+  .header__mobile-menu-icon:hover,
+  .header__mobile-menu-icon:focus {
+    fill: #2196f3;
+  }
 }
 
 // tablet-------------------------------------------------------------------------------
