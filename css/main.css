@@ -649,7 +649,6 @@ body {
 }
 
 .header {
-  padding-top: 20px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -661,7 +660,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .herosection {
-    padding: 118px 0;
+    padding: 200px 0;
     margin: 0 auto;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/Hero.jpg);
     background-repeat: no-repeat;
@@ -721,7 +720,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .herosection {
-    padding: 118px 0;
+    padding: 200px 0;
     margin: 0 auto;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/Hero.jpg);
     background-repeat: no-repeat;
@@ -781,7 +780,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .herosection {
-    padding: 118px 0;
+    padding: 200px 0;
     margin: 0 auto;
     background-color: var(--bg-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/desktop/Hero.jpg);
@@ -1057,7 +1056,7 @@ body {
     margin-bottom: 10px;
   }
   .team-section__subtitle {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
 }
 
