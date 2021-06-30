@@ -1173,6 +1173,12 @@ body {
   .address-footer-link {
     text-align: center;
   }
+  .address-footer-list {
+    margin-top: 20px;
+  }
+  .address-footer-item {
+    margin-top: 9px;
+  }
   .footer-social-container {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -1195,6 +1201,12 @@ body {
   .address-footer-link {
     text-align: center;
   }
+  .address-footer-list {
+    margin-top: 20px;
+  }
+  .address-footer-item {
+    margin-top: 9px;
+  }
   .footer-social-container {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -1214,8 +1226,8 @@ body {
   .address-footer-item {
     margin-top: 9px;
   }
-  .footer-social-container {
-    margin-left: 70px;
+  .footer-section__wrapper {
+    margin-right: 70px;
   }
 }
 
