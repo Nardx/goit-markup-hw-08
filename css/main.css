@@ -1155,7 +1155,7 @@ body {
   .footer-section {
     display: block;
   }
-  .footer-section-container {
+  .footer-section__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1177,7 +1177,7 @@ body {
   .footer-section {
     display: block;
   }
-  .footer-section-container {
+  .footer-section__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1196,7 +1196,7 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-section-container {
+  .footer-section__container {
     display: flex;
     flex-direction: row;
     align-items: baseline;

@@ -42,7 +42,7 @@
     display: block;
   }
 
-  .footer-section-container {
+  .footer-section__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@
     display: block;
   }
 
-  .footer-section-container {
+  .footer-section__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +92,7 @@
 
 // pc
 @media screen and (min-width: 1200px) {
-  .footer-section-container {
+  .footer-section__container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
